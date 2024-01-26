@@ -70,7 +70,8 @@ if __name__ == '__main__':
 <body>
     <h1>Users:</h1>
     <form method="post" action="{{url_for('add_book')}}">
-        <label for="title">Title of book</label>
+       
+		<label for="title">Title of book</label>
         <input type="text" name="title" required><br>
 
          <label for="author">Author</label>
